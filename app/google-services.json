@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1038591327201",
+    "firebase_url": "https://aplikasikesehatanmental.firebaseio.com",
+    "project_id": "aplikasikesehatanmental",
+    "storage_bucket": "aplikasikesehatanmental.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038591327201:android:5fe9b72d941d3377b8b0a0",
+        "android_client_info": {
+          "package_name": "com.vadia.aplikasikesehatanmental"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038591327201-gk2pnibdkg9ovde59v0can3ftujobnvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCOoFO9QJT2xzwnVCAFeKIDVA9Q3DGXes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038591327201-gk2pnibdkg9ovde59v0can3ftujobnvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

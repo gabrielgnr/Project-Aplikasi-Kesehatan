@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- styles.xml -->
+    <style android:name="username">
+        <item android:name="android:textSize">
+            18sp
+        </item>
+        <item android:name="android:textColor">
+            #EFEAEA
+        </item>
+    </style>
+    <!-- strings.xml -->
+    <string android:name="username">Username</string>
+</selector>

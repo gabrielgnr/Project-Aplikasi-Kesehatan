@@ -20,7 +20,7 @@
         android:layout_marginLeft="36dp"
         android:layout_marginTop="247dp"
         android:hint="Email"
-        android:background="#C9B5CE" />
+        android:background="@drawable/rounded_corner" />
 
     <EditText
         android:id="@+id/password"
@@ -30,7 +30,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="34dp"
         android:layout_marginTop="310dp"
-        android:background="#C9B5CE"
+        android:background="@drawable/rounded_corner"
         android:hint="Password" />
 
     <Button
@@ -40,9 +40,10 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_gravity="center"
-        android:layout_marginLeft="174dp"
-        android:layout_marginTop="375dp"
-        android:backgroundTint="#8C6B98"
+        android:layout_marginLeft="156dp"
+
+        android:layout_marginTop="566dp"
+        android:background="@drawable/rounded_button"
         android:gravity="center"
         android:text="SIGN IN" />
 

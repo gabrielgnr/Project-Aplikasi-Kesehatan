@@ -9,6 +9,4 @@
             #EFEAEA
         </item>
     </style>
-    <!-- strings.xml -->
-    <string android:name="username">Username</string>
 </selector>

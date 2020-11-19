@@ -11,10 +11,14 @@
         </item>
 
     </style>
-    <string name="log_in">
-
-    LOG IN
-    </string>
+    <style name="sign_in">
+        <item name="android:textSize">
+            20sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
 
     <style name="remember_me">
 

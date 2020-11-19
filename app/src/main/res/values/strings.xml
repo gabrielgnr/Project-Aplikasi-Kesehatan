@@ -6,4 +6,6 @@ Remember Me
 </string>
     <string name="register">Register</string>
     <string name="button">Button</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="username">Username</string>
 </resources>

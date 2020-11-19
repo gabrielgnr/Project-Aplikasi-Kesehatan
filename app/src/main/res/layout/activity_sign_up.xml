@@ -57,27 +57,45 @@
         android:layout_height="44dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="36dp"
-        android:layout_marginTop="283dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="331dp"
         android:background="@color/purple"
         android:hint="Nomor HP " />
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_marginTop="283dp"
+    <RadioGroup
+        android:id="@+id/role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
         android:layout_marginLeft="36dp"
-        android:layout_width="342dp"
-        android:layout_height="44dp"
-        >
+        android:layout_marginTop="283dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
 
         <TextView
-            android:id="@+id/role"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/role_txt"
+            android:layout_width="100dp"
+            android:layout_height="44dp"
             android:text="Role"
             android:textColor="#7F10A6"
             android:textSize="20sp" />
-    </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/type_psikiater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/psikiater"
+            android:textColor="#7F10A6"
+            />
+
+        <RadioButton
+            android:id="@+id/type_pasien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/pasien"
+            android:textColor="#7F10A6"/>
+    </RadioGroup>
 
     <TextView
         android:id="@+id/birthplace"
@@ -110,6 +128,32 @@
         android:text="@string/register"
         android:textAppearance="@style/register"
         android:gravity="center_horizontal|top"
+        android:background="@color/purple"
         />
 
+    <TextView
+        android:id="@+id/have_an_acc"
+        android:layout_width="149dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="131dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="831dp"
+        android:text="@string/have_an_acc"
+        android:textAppearance="@style/have_an_acc"
+        android:gravity="center_horizontal|top"
+        />
+
+    <TextView
+        android:id="@+id/click_here"
+        android:layout_width="120dp"
+        android:layout_height="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="143dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="851dp"
+        android:text="@string/click_here"
+        android:textAppearance="@style/click_here"
+        android:gravity="center_horizontal|top"
+        />
 </RelativeLayout>

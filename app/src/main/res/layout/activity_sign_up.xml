@@ -156,4 +156,30 @@
         android:textAppearance="@style/click_here"
         android:gravity="center_horizontal|top"
         />
+    <EditText
+        android:id="@+id/new_password"
+        android:layout_width="342dp"
+        android:layout_height="44dp"
+        android:background="@color/purple"
+        android:hint="@string/password"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+
+        android:layout_marginTop="431dp"/>
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="342dp"
+        android:layout_height="44dp"
+        android:background="@color/purple"
+        android:hint="@string/confirm_password"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+
+        android:layout_marginTop="480dp"/>
+
+
 </RelativeLayout>

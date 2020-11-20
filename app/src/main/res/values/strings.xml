@@ -10,4 +10,7 @@ Remember Me
     <string name="pasien">Pasien</string>
     <string name="click_here">Click here</string>
     <string name="have_an_acc">Have an account?</string>
+    <string name="success_sign_up">Register Success!</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
 </resources>

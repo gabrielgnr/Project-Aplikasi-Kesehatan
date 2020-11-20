@@ -13,8 +13,8 @@
         android:layout_marginLeft="43dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="46dp"
-        android:hint="@string/register"
-        android:textAppearance="@style/register"
+        android:text="@string/register_title"
+        android:textAppearance="@style/register_title"
         android:gravity="top"
         />
     <EditText
@@ -26,7 +26,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="105dp"
         android:hint="Fullname"
-        android:background="@color/purple"
+        android:background="@drawable/rounded_form"
         />
     <EditText
         android:id="@+id/username"
@@ -36,7 +36,7 @@
         android:layout_marginLeft="34dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="164dp"
-        android:background="@color/purple"
+        android:background="@drawable/rounded_form"
         android:hint="Username"
         />
     <EditText
@@ -47,7 +47,7 @@
         android:layout_marginLeft="35dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="228dp"
-        android:background="@color/purple"
+        android:background="@drawable/rounded_form"
         android:hint="Email"
         />
 
@@ -59,7 +59,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="331dp"
-        android:background="@color/purple"
+        android:background="@drawable/rounded_form"
         android:hint="Nomor HP " />
 
     <RadioGroup
@@ -117,19 +117,20 @@
         android:layout_marginTop="381dp"
         android:background="@color/purple_200"
         />
+
     <TextView
         android:id="@+id/register"
-        android:layout_width="94dp"
-        android:layout_height="32dp"
+        android:layout_width="109dp"
+        android:layout_height="42dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="157dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="624dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="553dp"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
         android:text="@string/register"
         android:textAppearance="@style/register"
-        android:gravity="center_horizontal|top"
-        android:background="@color/purple"
-        />
+        android:textColor="@color/white" />
 
     <TextView
         android:id="@+id/have_an_acc"
@@ -160,25 +161,23 @@
         android:id="@+id/new_password"
         android:layout_width="342dp"
         android:layout_height="44dp"
-        android:background="@color/purple"
+        android:background="@drawable/rounded_form"
         android:hint="@string/password"
 
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="35dp"
-
         android:layout_marginTop="431dp"/>
+
     <EditText
         android:id="@+id/confirm_password"
         android:layout_width="342dp"
         android:layout_height="44dp"
-        android:background="@color/purple"
+        android:background="@drawable/rounded_form"
         android:hint="@string/confirm_password"
-
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="35dp"
-
         android:layout_marginTop="480dp"/>
 
 

@@ -31,7 +31,7 @@
         </item>
 
     </style>
-    <style name="register">
+    <style name="register_title">
 
         <item name="android:textSize">
             24sp
@@ -41,6 +41,17 @@
             #7F10A6
         </item>
 
+    </style>
+
+    <style name="register">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            @color/white
+        </item>
     </style>
     <style name="click_here">
 

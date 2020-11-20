@@ -4,7 +4,8 @@
 
 Remember Me
 </string>
-    <string name="register">Register</string>
+    <string name="register_title">Register</string>
+    <string name="register">REGISTER</string>
     <string name="button">Button</string>
     <string name="psikiater">Psikiater</string>
     <string name="pasien">Pasien</string>
@@ -13,4 +14,5 @@ Remember Me
     <string name="success_sign_up">Register Success!</string>
     <string name="password">Password</string>
     <string name="confirm_password">Confirm Password</string>
+    <string name="log_in">LOG IN</string>
 </resources>

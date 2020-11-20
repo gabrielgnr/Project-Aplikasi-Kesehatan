@@ -10,8 +10,8 @@
         android:layout_marginLeft="24dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="21dp"
-        android:text="@string/pilih_jadwa"
-        android:textAppearance="@style/pilih_jadwa"
+        android:text="@string/pilih_jadwal"
+        android:textAppearance="@style/identity"
         android:gravity="top"
         />
 
@@ -23,8 +23,8 @@
         android:layout_marginLeft="23dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="64dp"
-        android:text="@string/untuk_melak"
-        android:textAppearance="@style/untuk_melak"
+        android:text="@string/instruction"
+        android:textAppearance="@style/instruction"
         android:gravity="top"
         />
 

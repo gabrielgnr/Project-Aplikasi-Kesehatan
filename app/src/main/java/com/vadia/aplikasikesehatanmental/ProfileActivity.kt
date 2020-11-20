@@ -3,14 +3,10 @@ package com.vadia.aplikasikesehatanmental
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.firestore.auth.User
-import com.vadia.aplikasikesehatanmental.UIPasien.EditProfileActivity
 import kotlinx.android.synthetic.main.profile_activity.*
-import org.w3c.dom.Text
-import java.util.*
 
 class ProfileActivity : AppCompatActivity() {
 

@@ -24,4 +24,6 @@ Remember Me
     <string name="data_pribadi">DATA PRIBADI</string>
     <string name="data_akun">DATA AKUN</string>
     <string name="edit">EDIT</string>
+    <string name="instruction">Untuk melakukan konsultasi cukup dengan mengeklik jadwal yang diinginkan. Setelah itu, anda diminta untuk melakukan verifikasi pembayaran.</string>
+    <string name="pilih_jadwal">Pilih Jadwal Konsultasi</string>
 </resources>

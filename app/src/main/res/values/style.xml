@@ -131,7 +131,7 @@
         </item>
 
     </style>
-    <style name="untuk_melak">
+    <style name="instruction">
 
         <item name="android:textSize">
             12sp

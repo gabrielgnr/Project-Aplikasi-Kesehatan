@@ -1,4 +1,4 @@
-package com.vadia.aplikasikesehatanmental.UIPasien
+package com.vadia.aplikasikesehatanmental
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

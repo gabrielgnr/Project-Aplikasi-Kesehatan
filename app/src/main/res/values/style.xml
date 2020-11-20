@@ -86,7 +86,7 @@
         </item>
 
     </style>
-    <style name="daftar_kons">
+    <style name="daftar_konseling">
 
         <item name="android:textSize">
             36sp
@@ -97,7 +97,7 @@
         </item>
 
     </style>
-    <style name="lihat_konse">
+    <style name="lihat_konselor">
 
         <item name="android:textSize">
             36sp
@@ -109,7 +109,7 @@
 
     </style>
 
-    <style name="riwayat_kon">
+    <style name="riwayat_konseling">
 
         <item name="android:textSize">
             36sp
@@ -120,7 +120,7 @@
         </item>
 
     </style>
-    <style name="pilih_jadwa">
+    <style name="pilih_jadwal">
 
         <item name="android:textSize">
             24sp

@@ -18,6 +18,7 @@
 
     <ImageView
         android:id="@+id/profile_img"
+        android:src="@drawable/person_icon"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_alignParentStart="true"
@@ -48,6 +49,8 @@
 
         android:src="@drawable/ic_notifications"
         />
+
+
     <RelativeLayout
         android:id="@+id/menu_24px_o"
         android:layout_width="34dp"
@@ -88,7 +91,7 @@
         android:layout_marginStart="128dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="101dp"
-        android:text="@string/daftar_kons"
+        android:text="@string/daftar_konseling"
         android:textAppearance="@style/daftar_kons"
         android:gravity="top"
         />
@@ -104,17 +107,16 @@
         />
 
     <TextView
-        android:id="@+id/lihat_konse"
-        android:layout_width="210dp"
-        android:layout_height="74dp"
+        android:id="@+id/lihat_konseling"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="128dp"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="128dp"
         android:layout_marginTop="215dp"
-        android:text="@string/lihat_konse"
-        android:textAppearance="@style/lihat_konse"
         android:gravity="top"
-        />
+        android:text="@string/lihat_konselor"
+        android:textAppearance="@style/lihat_konselor" />
 
     <View
         android:id="@+id/riwayat_konseling"
@@ -129,16 +131,15 @@
 
     <TextView
         android:id="@+id/riwayat_kon"
-        android:layout_width="210dp"
-        android:layout_height="75dp"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="128dp"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="128dp"
         android:layout_marginTop="329dp"
-        android:text="@string/riwayat_kon"
-        android:textAppearance="@style/riwayat_kon"
         android:gravity="top"
-        />
+        android:text="@string/riwayat_konseling"
+        android:textAppearance="@style/riwayat_konseling" />
 
 
     <TextView

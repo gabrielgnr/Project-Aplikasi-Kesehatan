@@ -15,4 +15,9 @@ Remember Me
     <string name="password">Password</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="log_in">LOG IN</string>
+    <string name="selamat_datang">SELAMAT DATANG,</string>
+    <string name="riwayat_konseling">RIWAYAT KONSELING</string>
+    <string name="lihat_konselor">LIHAT KONSELOR</string>
+    <string name="daftar_konseling">DAFTAR KONSELING</string>
+    <string name="upcoming_co">UPCOMING COUNSELING</string>
 </resources>

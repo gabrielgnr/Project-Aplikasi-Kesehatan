@@ -1,5 +1,6 @@
 package com.vadia.aplikasikesehatanmental
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Patterns
 import androidx.appcompat.app.AppCompatActivity
@@ -18,7 +19,13 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun initUI(){
-            log_in.setOnClickListener{
+        /*register.setOnClickListener {
+            val intent = Intent(this, SignUpActivity::class.java)
+            startActivity(intent)
+            finish()
+        }*/
+
+        log_in.setOnClickListener{
                 val username = username.getText().toString()
                 val password = password.getText().toString()
 

@@ -1,9 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeActivityPasien">
+    <View
+        android:id="@+id/daftar_konseling"
+        android:layout_width="341dp"
+        android:layout_height="103dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="93dp"
+        android:background="#AE82C2"
+        />
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fill_regist"
+        android:layout_width="77dp"
+        android:layout_height="67dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="108dp"
+        android:clipToOutline="true"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        />
+    <TextView
+        android:id="@+id/daftar_kons"
+        android:layout_width="210dp"
+        android:layout_height="74dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="101dp"
+        android:text="@string/daftar_kons"
+        android:textAppearance="@style/daftar_kons"
+        android:gravity="top"
+        />
+    <View
+        android:id="@+id/lihat_konselor"
+        android:layout_width="341dp"
+        android:layout_height="103dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="209dp"
+        android:background="#F1C584"
+        />
+
+    <TextView
+        android:id="@+id/lihat_konse"
+        android:layout_width="210dp"
+        android:layout_height="74dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="215dp"
+        android:text="@string/lihat_konse"
+        android:textAppearance="@style/lihat_konse"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/riwayat_konseling"
+        android:layout_width="341dp"
+        android:layout_height="103dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="322dp"
+        android:background="#F18484"
+        />
+
+    <TextView
+        android:id="@+id/riwayat_kon"
+        android:layout_width="210dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="329dp"
+        android:text="@string/riwayat_kon"
+        android:textAppearance="@style/riwayat_kon"
+        android:gravity="top"
+        />
+
+
+    <TextView
+        android:id="@+id/upcoming_co"
+        android:layout_width="284dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="443dp"
+        android:text="@string/upcoming_co"
+        android:textAppearance="@style/upcoming_co"
+        android:gravity="top"
+        />
+    <View
+        android:id="@+id/upcoming_placeholder"
+        android:layout_width="341dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="474dp"
+        android:background="#AE82C2"
+        />
+</RelativeLayout>

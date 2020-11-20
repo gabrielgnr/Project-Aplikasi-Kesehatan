@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/pilih_jadwa"
+        android:layout_width="282dp"
+        android:layout_height="59dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:text="@string/pilih_jadwa"
+        android:textAppearance="@style/pilih_jadwa"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/untuk_melak"
+        android:layout_width="367dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="64dp"
+        android:text="@string/untuk_melak"
+        android:textAppearance="@style/untuk_melak"
+        android:gravity="top"
+        />
+
+<androidx.recyclerview.widget.RecyclerView 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    android:name="com.vadia.aplikasikesehatanmental.UIPasien.DaftarKonselingFragment"
+
+    android:layout_below="@id/untuk_melak"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    app:layoutManager="LinearLayoutManager"
+    tools:context=".UIPasien.DaftarKonselingFragment"
+    tools:listitem="@layout/jadwal_item" />
+    
+</RelativeLayout>

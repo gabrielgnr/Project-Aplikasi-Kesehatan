@@ -13,4 +13,29 @@ Remember Me
     <string name="success_sign_up">Register Success!</string>
     <string name="password">Password</string>
     <string name="confirm_password">Confirm Password</string>
+    <string name="upcoming_co">
+
+UPCOMING COUNSELING
+</string>
+    <string name="daftar_kons">
+
+DAFTAR KONSELING
+</string>
+
+    <string name="lihat_konse">
+
+LIHAT KONSELOR
+</string>
+    <string name="riwayat_kon">
+
+RIWAYAT KONSELING
+</string>
+    <string name="pilih_jadwa">
+
+Pilih Jadwal Konsultasi
+</string>
+    <string name="untuk_melak">
+
+Untuk melakukan konsultasi cukup dengan mengeklik jadwal yang diinginkan. Setelah itu, anda diminta untuk melakukan verifikasi pembayaran.
+</string>
 </resources>

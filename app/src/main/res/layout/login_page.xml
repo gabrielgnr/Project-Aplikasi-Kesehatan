@@ -15,7 +15,7 @@
         android:layout_marginLeft="34dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="247dp"
-        android:background="@drawable/rounded_corner"
+        android:background="@drawable/rounded_form"
          />
 
 
@@ -28,7 +28,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="310dp"
         android:hint="Password"
-        android:background="@drawable/rounded_corner"
+        android:background="@drawable/rounded_form"
         />
 
     <TextView

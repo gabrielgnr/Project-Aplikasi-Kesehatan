@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UIPasien.EditProfileActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/edit_profil"
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="top"
+                android:text="@string/edit_profil"
+                android:textAppearance="@style/edit_profil" />
+
+            <TextView
+                android:id="@+id/data_pribadi"
+                android:layout_width="354dp"
+                android:layout_height="39dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/title_rectangle"
+                android:gravity="left|top"
+                android:padding="5dp"
+                android:text="@string/data_pribadi"
+                android:textAppearance="@style/profile_title" />
+
+            <TextView
+                android:id="@+id/titlename"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:gravity="left"
+                android:text="Nama"
+                android:textAppearance="@style/identity" />
+
+            <EditText
+                android:id="@+id/et_nama"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_form"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/birth"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="Tempat, tanggal lahir"
+                android:textAppearance="@style/identity" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_birthplace"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/birthplace_rectangle"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/et_birthdate"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/birthdate_rectangle"
+                    android:gravity="left"
+                    android:input="Date"
+                    android:inputType="date"
+                    android:padding="5dp"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/phonenumberinfo"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="Nomor HP"
+                android:textAppearance="@style/identity" />
+
+            <EditText
+                android:id="@+id/et_nomor_hp"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_form"
+                android:gravity="left"
+                android:inputType="number"
+                android:padding="5dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/data_akun"
+                android:layout_width="354dp"
+                android:layout_height="39dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/title_rectangle"
+                android:padding="5dp"
+                android:text="@string/data_akun"
+                android:textAppearance="@style/profile_title" />
+
+            <TextView
+                android:id="@+id/usernameinfo"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:gravity="left"
+                android:text="Username"
+                android:textAppearance="@style/identity" />
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_form"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/email_info"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="Email"
+                android:textAppearance="@style/identity" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_form"
+                android:gravity="left"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/passwordinfo"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="Password"
+                android:textAppearance="@style/identity" />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_form"
+                android:gravity="left"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/confirmpasswordinfo"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="Confirm Password"
+                android:textAppearance="@style/identity" />
+
+            <EditText
+                android:id="@+id/et_confirm_password"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_form"
+                android:gravity="left"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:text="" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

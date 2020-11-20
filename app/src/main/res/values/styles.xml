@@ -2,4 +2,48 @@
 <resources>
 
     <style name="username">18sp</style>
+
+        <style name="edit_profil">
+            <item name="android:textSize"> 24sp </item>
+            <item name="android:textColor"> #7F10A6 </item>
+        </style>
+
+    <style name="profile_title">
+        <item name="android:textSize">
+            18sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+    <style name="identity">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #7F10A6
+        </item>
+    </style>
+    <style name="name">
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #4D0367
+        </item>
+    </style>
+
+    <style name="edit_data">
+            <item name="android:textSize">
+                18sp
+            </item>
+
+            <item name="android:textColor">
+                #FFFFFF
+            </item>
+    </style>
+
 </resources>

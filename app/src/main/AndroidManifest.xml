@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AplikasiKesehatanMental">
-        <activity android:name=".HomeActivityPsikiater"></activity>
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".HomeActivityPsikiater" />
         <activity android:name=".ForgetPasswdActivity" />
         <activity android:name=".HomeActivityPasien" />
         <activity android:name=".SignUpActivity" />

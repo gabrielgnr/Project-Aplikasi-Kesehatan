@@ -20,4 +20,8 @@ Remember Me
     <string name="lihat_konselor">LIHAT KONSELOR</string>
     <string name="daftar_konseling">DAFTAR KONSELING</string>
     <string name="upcoming_co">UPCOMING COUNSELING</string>
+    <string name="edit_profil">Edit Profil</string>
+    <string name="data_pribadi">DATA PRIBADI</string>
+    <string name="data_akun">DATA AKUN</string>
+    <string name="edit">EDIT</string>
 </resources>

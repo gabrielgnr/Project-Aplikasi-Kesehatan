@@ -127,4 +127,15 @@
         </item>
 
     </style>
+    <style name="selamat_dat">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
 </resources>

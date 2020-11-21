@@ -51,9 +51,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="41dp"
-        android:gravity="center"
         android:layout_marginTop="372dp"
-        android:background="@drawable/rectangle_4" />
+        android:background="@drawable/rectangle_4"
+        android:gravity="center" />
 
     <TextView
         android:id="@+id/log_in"
@@ -68,4 +68,29 @@
         android:text="@string/log_in"
         android:padding="5dp"
         android:textAppearance="@style/log_in" />
+
+    <TextView
+        android:id="@+id/belum_punya_akun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="656dp"
+        android:text="Belum punya akun?" />
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="159dp"
+        android:layout_marginTop="686dp"
+        android:gravity="top"
+        android:text="daftar disini"
+        android:textAppearance="@style/remember_me" />
+
 </RelativeLayout>

@@ -8,6 +8,7 @@
 
     <EditText
         android:id="@+id/username"
+        android:padding="10dp"
         android:layout_width="342dp"
         android:layout_height="44dp"
         android:hint="Username"
@@ -21,6 +22,7 @@
 
     <EditText
         android:id="@+id/password"
+        android:padding="10dp"
         android:layout_width="342dp"
         android:layout_height="44dp"
         android:layout_alignParentLeft="true"

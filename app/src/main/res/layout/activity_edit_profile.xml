@@ -56,13 +56,13 @@
 
             <EditText
                 android:id="@+id/et_nama"
+
                 android:layout_width="354dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rounded_form"
                 android:gravity="left"
-                android:padding="5dp"
                 android:text="" />
 
             <TextView
@@ -91,7 +91,6 @@
                     android:padding="5dp"
                     android:text="" />
 
-
                 <EditText
                     android:id="@+id/et_birthdate"
                     android:layout_width="220dp"
@@ -99,7 +98,6 @@
                     android:layout_marginLeft="5dp"
                     android:background="@drawable/birthdate_rectangle"
                     android:gravity="left"
-                    android:input="Date"
                     android:inputType="date"
                     android:padding="5dp"
                     android:text="" />

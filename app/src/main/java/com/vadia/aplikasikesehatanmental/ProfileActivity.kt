@@ -22,21 +22,20 @@ class ProfileActivity : AppCompatActivity() {
     }
 
     private fun initUI(){
-        /*Perlu ini gak sih sebenernya?
-        //Info data pribadi
-        val name = findViewById<TextView>(R.id.name_info)
-        val birth = findViewById<TextView>(R.id.birth_place_and_date_info)
-        val telephone = findViewById<TextView>(R.id.phonenumberinfo)
-        //Info data akun
-        val username = findViewById<TextView>(R.id.username_info)
-        val email = findViewById<TextView>(R.id.email_info)
-        val password = findViewById<TextView>(R.id.passwordinfo)*/
+        setData()
 
         edit_data.setOnClickListener {
             val intent = Intent(this, EditProfileActivity::class.java)
             startActivity(intent)
             finish()
         }
+    }
 
+    private fun setData(){
+        /*name_info.text = pasien.fullname.toString()
+        birth_place_and_date_info.text=pasien.birthplace.toString()+", "+pasien.birthdate.toString()
+        phone_number.text = pasien.phone.toString()
+        username_info.text = ""
+        email_info.text=""*/
     }
 }

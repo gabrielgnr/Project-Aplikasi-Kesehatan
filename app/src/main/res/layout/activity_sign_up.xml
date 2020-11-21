@@ -21,6 +21,7 @@
         android:id="@+id/fullname"
         android:layout_width="342dp"
         android:layout_height="44dp"
+        android:paddingLeft="10dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="34dp"
         android:layout_alignParentTop="true"
@@ -30,6 +31,7 @@
         />
     <EditText
         android:id="@+id/username"
+        android:paddingLeft="10dp"
         android:layout_width="342dp"
         android:layout_height="44dp"
         android:layout_alignParentLeft="true"
@@ -41,6 +43,7 @@
         />
     <EditText
         android:id="@+id/email"
+        android:paddingLeft="10dp"
         android:layout_width="342dp"
         android:layout_height="44dp"
         android:layout_alignParentLeft="true"
@@ -59,6 +62,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="331dp"
+        android:paddingLeft="10dp"
         android:background="@drawable/rounded_form"
         android:hint="Nomor HP " />
 
@@ -66,7 +70,6 @@
         android:id="@+id/role"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_marginLeft="36dp"
         android:layout_marginTop="283dp"
         android:orientation="horizontal"
@@ -92,7 +95,6 @@
             android:id="@+id/type_pasien"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:text="@string/pasien"
             android:textColor="#7F10A6"/>
     </RadioGroup>
@@ -159,11 +161,12 @@
         />
     <EditText
         android:id="@+id/new_password"
+        android:paddingLeft="10dp"
         android:layout_width="342dp"
         android:layout_height="44dp"
         android:background="@drawable/rounded_form"
         android:hint="@string/password"
-
+        android:inputType="textPassword"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="35dp"
@@ -171,6 +174,8 @@
 
     <EditText
         android:id="@+id/confirm_password"
+        android:paddingLeft="10dp"
+        android:inputType="textPassword"
         android:layout_width="342dp"
         android:layout_height="44dp"
         android:background="@drawable/rounded_form"

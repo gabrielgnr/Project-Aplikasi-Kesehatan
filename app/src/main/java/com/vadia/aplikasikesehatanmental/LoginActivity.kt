@@ -2,7 +2,9 @@ package com.vadia.aplikasikesehatanmental
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.util.Patterns
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.login_page.*
@@ -29,17 +31,32 @@ class LoginActivity : AppCompatActivity() {
                 val username = username.getText().toString()
                 val password = password.getText().toString()
 
-                var is_error = false
+            if(username.isEmpty() || password.isEmpty()){
+                Toast.makeText(this, "Username atau Password Kosong, silakan isi!", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+            FirebaseAuth.getInstance().signInWithEmailAndPassword(username,password)
+                    .addOnCompleteListener{
 
+                        if (!it.isSuccessful){ return@addOnCompleteListener
+                            val intent = Intent (this, LoginActivity::class.java)
+                            startActivity(intent)
+                        }
+                        else
+                            Toast.makeText(this, "Berhasil Login!", Toast.LENGTH_SHORT).show()
+                        val intent = Intent (this, HomeActivityPasien::class.java)
+                        startActivity(intent)
+                    }
+                    .addOnFailureListener{
+                        Log.d("Main", "Failed Login: ${it.message}")
+                        Toast.makeText(this, "Email/Password Salah", Toast.LENGTH_SHORT).show()
 
-                if(password.length<8){
-
-                }
+                    }
 
             }
 
         sign_up.setOnClickListener{
-            val intent = Intent(this, SignUpActivity::class)
+            val intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)
             finish()
         }

@@ -28,6 +28,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="310dp"
         android:hint="Password"
+        android:inputType="textPassword"
         android:background="@drawable/rounded_form"
         />
 
@@ -90,7 +91,7 @@
         android:layout_marginLeft="159dp"
         android:layout_marginTop="686dp"
         android:gravity="top"
-        android:text="daftar disini"
+        android:text="Daftar disini"
         android:textAppearance="@style/remember_me" />
 
 </RelativeLayout>

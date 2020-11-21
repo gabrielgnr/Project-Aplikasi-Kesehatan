@@ -21,11 +21,11 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun initUI(){
-        /*register.setOnClickListener {
+        sign_up.setOnClickListener {
             val intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)
             finish()
-        }*/
+        }
 
         log_in.setOnClickListener {
             val email = username.getText().toString()

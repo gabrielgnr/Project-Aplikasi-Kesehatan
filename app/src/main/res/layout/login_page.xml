@@ -12,6 +12,7 @@
 
     <EditText
         android:id="@+id/username"
+        android:padding="10dp"
         android:layout_width="342dp"
         android:layout_height="44dp"
         android:hint="Username"
@@ -25,6 +26,7 @@
 
     <EditText
         android:id="@+id/password"
+        android:padding="10dp"
         android:layout_width="342dp"
         android:layout_height="44dp"
         android:layout_alignParentLeft="true"
@@ -32,6 +34,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="310dp"
         android:hint="Password"
+        android:inputType="textPassword"
         android:background="@drawable/rounded_form"
         />
 
@@ -94,7 +97,7 @@
         android:layout_marginLeft="149dp"
         android:layout_marginTop="580dp"
         android:gravity="top"
-        android:text="daftar disini"
+        android:text="Daftar disini"
         android:textAppearance="@style/remember_me" />
 
 </RelativeLayout>

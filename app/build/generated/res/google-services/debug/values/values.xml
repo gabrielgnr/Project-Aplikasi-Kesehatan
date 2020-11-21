@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">1038591327201-gk2pnibdkg9ovde59v0can3ftujobnvb.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://aplikasikesehatanmental.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">1038591327201</string>
-    <string name="google_api_key" translatable="false">AIzaSyBCOoFO9QJT2xzwnVCAFeKIDVA9Q3DGXes</string>
-    <string name="google_app_id" translatable="false">1:1038591327201:android:5fe9b72d941d3377b8b0a0</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBCOoFO9QJT2xzwnVCAFeKIDVA9Q3DGXes</string>
-    <string name="google_storage_bucket" translatable="false">aplikasikesehatanmental.appspot.com</string>
-    <string name="project_id" translatable="false">aplikasikesehatanmental</string>
+    <string name="default_web_client_id" translatable="false">1069425339671-0a3ad7sqs6h43afuojt3of5hje11p6an.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://aplikasi-prak-ppl.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1069425339671</string>
+    <string name="google_api_key" translatable="false">AIzaSyDpvkG2rTdzyg7tXGqY9FqEpTNhLcTL2hU</string>
+    <string name="google_app_id" translatable="false">1:1069425339671:android:109c617eec6fa0dcb09b52</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDpvkG2rTdzyg7tXGqY9FqEpTNhLcTL2hU</string>
+    <string name="google_storage_bucket" translatable="false">aplikasi-prak-ppl.appspot.com</string>
+    <string name="project_id" translatable="false">aplikasi-prak-ppl</string>
 </resources>

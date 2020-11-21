@@ -26,9 +26,5 @@ Remember Me
     <string name="edit">EDIT</string>
     <string name="instruction">Untuk melakukan konsultasi cukup dengan mengeklik jadwal yang diinginkan. Setelah itu, anda diminta untuk melakukan verifikasi pembayaran.</string>
     <string name="pilih_jadwal">Pilih Jadwal Konsultasi</string>
-
-    <string name="invalid_email">Invalid Email</string>
-    <string name="invalid_password">Password must be least of 8 character</string>
-
-
+    <string name="send">SEND</string>
 </resources>

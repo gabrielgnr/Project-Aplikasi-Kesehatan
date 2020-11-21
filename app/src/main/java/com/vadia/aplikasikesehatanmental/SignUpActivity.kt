@@ -86,8 +86,6 @@ class SignUpActivity : AppCompatActivity() {
             }
         }
 
-
-
     }
 
 
@@ -141,8 +139,6 @@ class SignUpActivity : AppCompatActivity() {
                         .set(newPsikiater)
                         .addOnSuccessListener { Toast.makeText(baseContext, resources.getString(R.string.success_sign_up), Toast.LENGTH_SHORT).show() }
                         .addOnFailureListener { Toast.makeText(baseContext, "Error, cannot add new user.",Toast.LENGTH_SHORT).show() }
-
-
 
                     // Sign in success, update UI with the signed-in user's information
                     Toast.makeText(baseContext, resources.getString(R.string.success_sign_up), Toast.LENGTH_SHORT).show()

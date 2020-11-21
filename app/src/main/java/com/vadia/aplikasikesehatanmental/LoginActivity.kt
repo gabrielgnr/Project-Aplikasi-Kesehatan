@@ -37,5 +37,12 @@ class LoginActivity : AppCompatActivity() {
                 }
 
             }
+
+        sign_up.setOnClickListener{
+            val intent = Intent(this, SignUpActivity::class)
+            startActivity(intent)
+            finish()
+        }
+
     }
 }

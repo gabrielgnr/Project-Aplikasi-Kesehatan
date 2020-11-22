@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1069425339671",
+    "firebase_url": "https://aplikasi-prak-ppl.firebaseio.com",
+    "project_id": "aplikasi-prak-ppl",
+    "storage_bucket": "aplikasi-prak-ppl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069425339671:android:109c617eec6fa0dcb09b52",
+        "android_client_info": {
+          "package_name": "com.vadia.aplikasikesehatanmental"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069425339671-0a3ad7sqs6h43afuojt3of5hje11p6an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpvkG2rTdzyg7tXGqY9FqEpTNhLcTL2hU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069425339671-0a3ad7sqs6h43afuojt3of5hje11p6an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

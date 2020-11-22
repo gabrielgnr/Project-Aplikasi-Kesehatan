@@ -32,10 +32,10 @@ class ProfileActivity : AppCompatActivity() {
     }
 
     private fun setData(){
-        /*name_info.text = pasien.fullname.toString()
+        name_info.text = pasien.fullname.toString()
         birth_place_and_date_info.text=pasien.birthplace.toString()+", "+pasien.birthdate.toString()
         phone_number.text = pasien.phone.toString()
-        username_info.text = ""
-        email_info.text=""*/
+        username_info.text = user.username.toString()
+        email_info.text=""
     }
 }

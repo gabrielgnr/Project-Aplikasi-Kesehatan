@@ -16,7 +16,6 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login_page)
 
-
         initUI()
     }
 
@@ -32,12 +31,11 @@ class LoginActivity : AppCompatActivity() {
                 val password = password.getText().toString()
 
             if(username.isEmpty() || password.isEmpty()){
-                Toast.makeText(this, "Username atau Password Kosong, silakan isi!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Username atau Password kosong, silakan isi!", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
             FirebaseAuth.getInstance().signInWithEmailAndPassword(username,password)
                     .addOnCompleteListener{
-
                         if (!it.isSuccessful){ return@addOnCompleteListener
                             val intent = Intent (this, LoginActivity::class.java)
                             startActivity(intent)
@@ -50,9 +48,7 @@ class LoginActivity : AppCompatActivity() {
                     .addOnFailureListener{
                         Log.d("Main", "Failed Login: ${it.message}")
                         Toast.makeText(this, "Email/Password Salah", Toast.LENGTH_SHORT).show()
-
                     }
-
             }
 
         sign_up.setOnClickListener{

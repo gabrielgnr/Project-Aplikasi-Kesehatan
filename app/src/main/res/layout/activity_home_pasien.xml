@@ -108,6 +108,7 @@
         android:layout_marginTop="210dp"
         android:background="#F1C584" />
 
+
     <TextView
         android:id="@+id/lihat_konseling"
         android:layout_width="226dp"
@@ -131,6 +132,16 @@
         android:background="#F18484"
         />
 
+    <RelativeLayout
+        android:id="@+id/history"
+        android:layout_width="77dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="337dp"
+        android:background="@drawable/history_icon"></RelativeLayout>
+
     <TextView
         android:id="@+id/riwayat_kon"
         android:layout_width="216dp"
@@ -143,6 +154,16 @@
         android:text="@string/riwayat_konseling"
         android:textAppearance="@style/riwayat_konseling" />
 
+
+    <RelativeLayout
+        android:id="@+id/see_counselor"
+        android:layout_width="77dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="226dp"
+        android:background="@drawable/people_icon"></RelativeLayout>
 
     <TextView
         android:id="@+id/upcoming_co"

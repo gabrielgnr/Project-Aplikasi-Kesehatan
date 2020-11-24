@@ -3,6 +3,7 @@ package com.vadia.aplikasikesehatanmental
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.RadioButton
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
@@ -14,11 +15,15 @@ import com.vadia.aplikasikesehatanmental.DataModel.Pasien
 import com.vadia.aplikasikesehatanmental.DataModel.Psikiater
 
 import kotlinx.android.synthetic.main.activity_sign_up.*
+import java.util.*
 
 class SignUpActivity : AppCompatActivity() {
     private val db = Firebase.firestore
     private val pasien= db.collection("pasien")
+    private val user_pasien=db.collection("pasien_user")
     private val psikiater= db.collection("psikiater")
+    private val user_psikiater=db.collection("psikiater_user")
+
     private lateinit var auth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,6 +45,7 @@ class SignUpActivity : AppCompatActivity() {
 
     private fun initUI() {
         var role_id=findViewById<RadioButton>(type_pasien.id).id
+        //type_pasien.isChecked
         role.setOnCheckedChangeListener { radioGroup, i ->
             val radio:RadioButton=findViewById(i)
             role_id=radio.id
@@ -102,7 +108,8 @@ class SignUpActivity : AppCompatActivity() {
                 if (task.isSuccessful) {
                     //Add to DB
                     val uid = auth.uid!!
-                    val newPasien=Pasien(uid,fullname,username,email,noTelp)
+                    val pasien_id=UUID.randomUUID().toString()
+                    val newPasien=Pasien(uid = uid,pasien_id=pasien_id,fullName = fullname,userName = username,email = email,phone = noTelp)
 
                     //Add user:
                     pasien.document(uid)
@@ -112,9 +119,10 @@ class SignUpActivity : AppCompatActivity() {
 
 
 
+
                     // Sign in success, update UI with the signed-in user's information
                     Toast.makeText(baseContext, resources.getString(R.string.success_sign_up), Toast.LENGTH_SHORT).show()
-                    val user = auth.currentUser
+                    //val user = auth.currentUser
                     updateUIPasien()
                 } else {
                     // If sign in fails, display a message to the user.
@@ -132,7 +140,8 @@ class SignUpActivity : AppCompatActivity() {
                 if (task.isSuccessful) {
                     //Add to DB
                     val uid = auth.uid!!
-                    val newPsikiater= Psikiater(uid,fullname,username,email,noTelp)
+                    val psikiater_id=UUID.randomUUID().toString()
+                    val newPsikiater= Psikiater(uid=uid,psikiater_id = psikiater_id,fullName = fullname,email = email,phone = noTelp)
 
                     //Add user:
                     psikiater.document(uid)
@@ -142,7 +151,7 @@ class SignUpActivity : AppCompatActivity() {
 
                     // Sign in success, update UI with the signed-in user's information
                     Toast.makeText(baseContext, resources.getString(R.string.success_sign_up), Toast.LENGTH_SHORT).show()
-                    val user = auth.currentUser
+                   // val user = auth.currentUser
                     updateUIPsikiater()
                 } else {
                     // If sign in fails, display a message to the user.
@@ -165,6 +174,10 @@ class SignUpActivity : AppCompatActivity() {
         val intent = Intent(this, HomeActivityPsikiater::class.java)
         startActivity(intent)
         finish()
+    }
+
+    fun roleOnClick(view: View) {
+
     }
 
 }

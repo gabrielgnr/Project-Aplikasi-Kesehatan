@@ -1,7 +1,8 @@
 package com.vadia.aplikasikesehatanmental.DataModel
 
 data class Pasien(
-    val id: String = "",
+    val uid: String = "",
+    val pasien_id:String="",
     val fullName: String = "",
     val userName: String = "",
     val email: String = "",

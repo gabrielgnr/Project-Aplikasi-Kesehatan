@@ -16,7 +16,6 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login_page)
 
-
         initUI()
     }
 
@@ -27,52 +26,29 @@ class LoginActivity : AppCompatActivity() {
             finish()
         }
 
-        log_in.setOnClickListener {
-            val email = username.getText().toString()
-            val passWd = password.getText().toString()
-            var isError = false
+        log_in.setOnClickListener{
+                val username = username.getText().toString()
+                val password = password.getText().toString()
 
-            if (email.isEmpty() || passWd.isEmpty()) {
-                Toast.makeText(
-                    this,
-                    "Username atau Password Kosong, silakan isi!",
-                    Toast.LENGTH_SHORT
-                ).show()
-                isError = true
-                //return@setOnClickListener
+            if(username.isEmpty() || password.isEmpty()){
+                Toast.makeText(this, "Username atau Password kosong, silakan isi!", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
             }
-            if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-                username.error = resources.getString(R.string.invalid_email)
-                username.isFocusable = true
-                isError = true
-            }
-
-            if (passWd.length < 8) {
-                password.error = resources.getString(R.string.invalid_password)
-                password.isFocusable = true
-                isError = true
-            }
-            if (!isError){
-                firebaseAuth.signInWithEmailAndPassword(email, passWd)
-                    .addOnCompleteListener {
-
-                        if (!it.isSuccessful) {
-                            return@addOnCompleteListener
-                            //val intent = Intent (this, LoginActivity::class.java)
-                            //startActivity(intent)
-
-                        } else
+            FirebaseAuth.getInstance().signInWithEmailAndPassword(username,password)
+                    .addOnCompleteListener{
+                        if (!it.isSuccessful){ return@addOnCompleteListener
+                            val intent = Intent (this, LoginActivity::class.java)
+                            startActivity(intent)
+                        }
+                        else
                             Toast.makeText(this, "Berhasil Login!", Toast.LENGTH_SHORT).show()
-                        val intent = Intent(this, HomeActivityPasien::class.java)
+                        val intent = Intent (this, HomeActivityPasien::class.java)
                         startActivity(intent)
                     }
-                    .addOnFailureListener {
+                    .addOnFailureListener{
                         Log.d("Main", "Failed Login: ${it.message}")
                         Toast.makeText(this, "Email/Password Salah", Toast.LENGTH_SHORT).show()
-
                     }
-                 }
-
             }
 
         sign_up.setOnClickListener{
@@ -80,13 +56,6 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-
-    }
-    private fun moveToDashboardPasien(){
-
-    }
-
-    private fun moveToDashboardPsikiater(){
 
     }
 }

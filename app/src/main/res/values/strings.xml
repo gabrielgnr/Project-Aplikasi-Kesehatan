@@ -27,4 +27,6 @@ Remember Me
     <string name="instruction">Untuk melakukan konsultasi cukup dengan mengeklik jadwal yang diinginkan. Setelah itu, anda diminta untuk melakukan verifikasi pembayaran.</string>
     <string name="pilih_jadwal">Pilih Jadwal Konsultasi</string>
     <string name="send">SEND</string>
+    <string name="jadwal_konseling">JADWAL KONSELING</string>
+    <string name="hasil_konseling">HASIL KONSELING</string>
 </resources>

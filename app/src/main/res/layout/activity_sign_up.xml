@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_height="match_parent"
-    android:layout_width="match_parent">
-<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     tools:context=".SignUpActivity">
     <TextView
         android:id="@+id/reg_head"
         android:layout_width="309dp"
         android:layout_height="39dp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="43dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="46dp"
         android:text="@string/register_title"
@@ -23,8 +21,9 @@
         android:id="@+id/fullname"
         android:layout_width="342dp"
         android:layout_height="44dp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="34dp"
+        android:paddingLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="34dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="105dp"
         android:hint="Fullname"
@@ -32,10 +31,11 @@
         />
     <EditText
         android:id="@+id/username"
+        android:paddingLeft="10dp"
         android:layout_width="342dp"
         android:layout_height="44dp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="34dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="164dp"
         android:background="@drawable/rounded_form"
@@ -43,10 +43,11 @@
         />
     <EditText
         android:id="@+id/email"
+        android:paddingLeft="10dp"
         android:layout_width="342dp"
         android:layout_height="44dp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="228dp"
         android:background="@drawable/rounded_form"
@@ -57,10 +58,11 @@
         android:id="@+id/no_hp"
         android:layout_width="342dp"
         android:layout_height="44dp"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
         android:layout_marginTop="331dp"
+        android:paddingLeft="10dp"
         android:background="@drawable/rounded_form"
         android:hint="Nomor HP " />
 
@@ -68,8 +70,7 @@
         android:id="@+id/role"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
         android:layout_marginTop="283dp"
         android:orientation="horizontal"
         android:background="@color/white">
@@ -94,30 +95,34 @@
             android:id="@+id/type_pasien"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:text="@string/pasien"
             android:textColor="#7F10A6"/>
     </RadioGroup>
 
     <TextView
         android:id="@+id/birthplace"
+        android:hint="Tempat lahir"
+        android:padding="10dp"
         android:layout_width="150dp"
         android:layout_height="44dp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="381dp"
-        android:background="@color/purple_200"
+        android:background="@drawable/birthplace_rectangle"
         />
-    <DatePicker
+    <EditText
         android:id="@+id/birthdate"
+        android:hint="Tanggal lahir"
+        android:padding="10dp"
         android:layout_width="181dp"
         android:layout_height="44dp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="194dp"
+        android:inputType="date"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="194dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="381dp"
-        android:background="@color/purple_200"
+        android:background="@drawable/birthdate_rectangle"
         />
 
     <TextView
@@ -161,11 +166,12 @@
         />
     <EditText
         android:id="@+id/new_password"
+        android:paddingLeft="10dp"
         android:layout_width="342dp"
         android:layout_height="44dp"
         android:background="@drawable/rounded_form"
         android:hint="@string/password"
-
+        android:inputType="textPassword"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="35dp"
@@ -173,6 +179,8 @@
 
     <EditText
         android:id="@+id/confirm_password"
+        android:paddingLeft="10dp"
+        android:inputType="textPassword"
         android:layout_width="342dp"
         android:layout_height="44dp"
         android:background="@drawable/rounded_form"
@@ -184,4 +192,3 @@
 
 
 </RelativeLayout>
-</ScrollView>

@@ -96,11 +96,7 @@ class SignUpActivity : AppCompatActivity() {
 
 
     }
-    private fun setDifferences(id:Int){
-        if(id.equals(type_pasien.id)){
 
-        }
-    }
     private fun addPasien(fullname:String,username:String,email:String,noTelp:String,password:String){
 
         auth.createUserWithEmailAndPassword(email, password)

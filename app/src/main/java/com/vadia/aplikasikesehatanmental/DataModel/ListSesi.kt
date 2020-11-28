@@ -1,8 +1,8 @@
 package com.vadia.aplikasikesehatanmental.DataModel
 
 data class ListSesi (
-    val namaPsikiater:String="",
-    val sesiJam:String="",
-    val sesiHari:String=""
+    var namaPsikiater:String="",
+    var sesiJam:String="",
+    var sesiHari:String=""
 
 )

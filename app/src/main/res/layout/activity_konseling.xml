@@ -5,5 +5,102 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".KonselingActivity">
+    <RelativeLayout
+        android:id="@+id/chat_pemeriksa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/menu_rectangle"
+        >
+        <ImageView
+            android:id="@+id/profile_psikiater"
+            android:layout_width="57dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="9dp"
+            android:src="@drawable/person_icon"
+            android:background="@drawable/photo_circle" />
+        <TextView
+            android:id="@+id/nama_psikiater"
+            android:layout_width="179dp"
+            android:layout_height="31dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="1dp"
+            android:gravity="top"
+            android:text="@string/counselor_name"
+            android:textAppearance="@style/counselor_name" />
+
+        <TextView
+            android:id="@+id/sesi_jam"
+            android:layout_width="147dp"
+            android:layout_height="16dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="42dp"
+            android:gravity="top"
+            android:text="Jam"
+            android:textAppearance="@style/time" />
+
+        <TextView
+            android:id="@+id/tanggal_sesi"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="99dp"
+            android:layout_marginTop="22dp"
+            android:gravity="top"
+            android:text="Hari, tanggal"
+            android:textAppearance="@style/time" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chats"
+        app:layout_constraintTop_toBottomOf="@id/chat_pemeriksa"
+        app:layout_constraintBottom_toTopOf="@id/chat_layout"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/chat_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/chat_rectangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chats">
+
+        <ImageView
+            android:id="@+id/send_messages"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="33dp"
+            android:layout_toEndOf="@id/chatbox"
+            android:layout_centerVertical="true"
+            android:src="@drawable/send_chat" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/chatbox"
+            android:layout_width="319dp"
+            android:layout_height="46dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/chat_box"
+
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLength="2000"
+            android:maxLines="5"
+            android:hint="Tulis pesan di sini"
+            android:padding="5pt" />
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

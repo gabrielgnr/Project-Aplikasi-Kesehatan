@@ -43,16 +43,13 @@ class SignUpActivity : AppCompatActivity() {
          */
     }
 
-    private fun initUI() {
-        var role_id=findViewById<RadioButton>(type_pasien.id).id
-        //type_pasien.isChecked
-        role.setOnCheckedChangeListener { radioGroup, i ->
-            val radio:RadioButton=findViewById(i)
-            role_id=radio.id
-        }
-       //setDifferences(role_id)
-        //Date Picker?
+    private fun roleOnClick(): String? = when (role.checkedRadioButtonId) {
+        R.id.type_psikiater-> "psikiater"
+        R.id.type_pasien -> "pasien"
+        else -> null
+    }
 
+    private fun initUI() {
 
     register.setOnClickListener {
         val fullName=fullname.text.toString()
@@ -61,10 +58,12 @@ class SignUpActivity : AppCompatActivity() {
         val newPass=new_password.text.toString()
         val confirmPass=confirm_password.text.toString()
 
-        //User Type?
-        val userType=role_id
-        if (userType.equals(type_pasien.id)){
+        //User Type
+        val userType = roleOnClick()
+        //Kalau pasien
+        if (userType.equals("pasien")){
             val noTelp=no_hp.text.toString()
+            //Cek password
             if(newPass.equals(confirmPass)&&!newPass.isEmpty()) {
                 addPasien(fullname = fullName, username=username, email = email, noTelp = noTelp, password = newPass)
             }
@@ -77,6 +76,7 @@ class SignUpActivity : AppCompatActivity() {
                 }
             }
         }
+        //Kalau psikiater
         else{
             val noTelp=no_hp.text.toString()
             if(newPass.equals(confirmPass)&&!newPass.isEmpty()) {
@@ -91,7 +91,6 @@ class SignUpActivity : AppCompatActivity() {
                 }
             }
         }
-
     }
 
 
@@ -122,7 +121,6 @@ class SignUpActivity : AppCompatActivity() {
                     updateUIPasien()
                 } else {
                     // If sign in fails, display a message to the user.
-
                     Toast.makeText(baseContext, "Authentication failed.",Toast.LENGTH_SHORT).show()
                 }
 
@@ -172,8 +170,5 @@ class SignUpActivity : AppCompatActivity() {
         finish()
     }
 
-    fun roleOnClick(view: View) {
-
-    }
 
 }

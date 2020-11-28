@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Rectangle 18 -->
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="411dp"
+        android:layout_height="92dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-24dp"
+        android:background="@drawable/menu_rectangle"
+        />
+
+    <ImageView
+        android:id="@+id/ellipse_7"
+        android:layout_width="57dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/person_icon"
+        android:background="@drawable/photo_circle" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="179dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="1dp"
+        android:gravity="top"
+        android:text="@string/counselor_name"
+        android:textAppearance="@style/counselor_name" />
+
+    <TextView
+        android:id="@+id/date_of_consult"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="22dp"
+        android:gravity="top"
+        android:text="Hari, tanggal"
+        android:textAppearance="@style/time" />
+
+    <TextView
+        android:id="@+id/senin_23_no"
+        android:layout_width="147dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="42dp"
+        android:gravity="top"
+        android:text="Jam"
+        android:textAppearance="@style/time" />
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="709dp"
+        android:background="@drawable/chat_rectangle" />
+
+    <EditText
+        android:id="@+id/chatbox"
+        android:hint="Tulis pesan di sini"
+        android:padding="5pt"
+        android:layout_width="319dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="724dp"
+        android:background="@drawable/chat_box" />
+
+    <RelativeLayout
+        android:id="@+id/send_24px_o"
+        android:layout_width="35dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="346dp"
+        android:layout_marginTop="729dp"
+        android:background="@drawable/send_chat"
+        android:clipToOutline="true" />
+
+
+</RelativeLayout>

@@ -46,4 +46,24 @@
             </item>
     </style>
 
+    <style name="counselor_name">
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+
+    <style name="time">
+            <item name="android:textSize">
+                13sp
+            </item>
+
+            <item name="android:textColor">
+                #FFFFFF
+            </item>
+    </style>
+
 </resources>

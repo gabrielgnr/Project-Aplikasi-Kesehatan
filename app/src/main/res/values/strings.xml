@@ -29,4 +29,5 @@ Remember Me
     <string name="send">SEND</string>
     <string name="jadwal_konseling">JADWAL KONSELING</string>
     <string name="hasil_konseling">HASIL KONSELING</string>
+    <string name="counselor_name">dr. Alfa Romeo</string>
 </resources>

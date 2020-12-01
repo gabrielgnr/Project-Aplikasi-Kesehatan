@@ -1,0 +1,2 @@
+com/vadia/aplikasikesehatanmental/BuildConfig.java
+ com.vadia.aplikasikesehatanmental.BuildConfig

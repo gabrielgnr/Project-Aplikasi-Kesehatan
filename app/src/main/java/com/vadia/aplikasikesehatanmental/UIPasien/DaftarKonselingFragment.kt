@@ -80,7 +80,7 @@ class DaftarKonselingFragment : Fragment() {
 
     private fun initRecyclerView(view:View){
         //val today=
-        val docRef=db.collection("jadwal_sesi").whereEqualTo("hari","psikiater?")
+        val docRef=db.collection("jadwal_sesi").whereEqualTo("id_psikiater","psikiater?")
         docRef.addSnapshotListener { snapshot, error ->
             if(error!=null){
                 Log.w(TAG,"Listen Failed",error)

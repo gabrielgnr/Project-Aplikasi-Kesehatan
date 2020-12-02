@@ -65,7 +65,11 @@ class SignUpActivity : AppCompatActivity() {
             val noTelp=no_hp.text.toString()
             //Cek password
             if(newPass.equals(confirmPass)&&!newPass.isEmpty()) {
-                addPasien(fullname = fullName, username=username, email = email, noTelp = noTelp, password = newPass)
+                addPasien(fullname = fullName,
+                    username=username,
+                    email = email,
+                    noTelp = noTelp,
+                    password = newPass)
             }
             else{
                 if(newPass.isEmpty()){
@@ -80,7 +84,11 @@ class SignUpActivity : AppCompatActivity() {
         else{
             val noTelp=no_hp.text.toString()
             if(newPass.equals(confirmPass)&&!newPass.isEmpty()) {
-                addPsikiater(fullname = fullName, username = username, email = email,noTelp = noTelp,password = newPass)
+                addPsikiater(fullname = fullName,
+                    username = username,
+                    email = email,
+                    noTelp = noTelp,
+                    password = newPass)
             }
             else{
                 if(newPass.isEmpty()){
@@ -97,7 +105,6 @@ class SignUpActivity : AppCompatActivity() {
     }
 
     private fun addPasien(fullname:String,username:String,email:String,noTelp:String,password:String){
-
         auth.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {

@@ -56,12 +56,12 @@
         "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\menu_icon.xml"
     },
     {
-        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_fill_registration.xml.flat",
-        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\drawable\\ic_fill_registration.xml"
-    },
-    {
         "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu.xml.flat",
         "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\drawable\\ic_menu.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_fill_registration.xml.flat",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\drawable\\ic_fill_registration.xml"
     },
     {
         "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_4.xml.flat",
@@ -92,12 +92,12 @@
         "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\send_chat.png"
     },
     {
-        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_schedule_icon.png.flat",
-        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\schedule_icon.png"
-    },
-    {
         "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_history_icon.png.flat",
         "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\history_icon.png"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_schedule_icon.png.flat",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\schedule_icon.png"
     },
     {
         "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_profile.xml.flat",

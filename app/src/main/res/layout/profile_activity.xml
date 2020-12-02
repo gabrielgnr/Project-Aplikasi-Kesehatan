@@ -202,7 +202,7 @@
             android:layout_gravity="left"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
-            android:background="@drawable/rounded_button"
+            android:background="@drawable/round_button"
             android:gravity="center"
             android:text="@string/edit"
             android:textAppearance="@style/edit_data"

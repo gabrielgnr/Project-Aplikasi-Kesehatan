@@ -26,7 +26,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="144dp"
         android:layout_marginTop="437dp"
-        android:background="@drawable/rounded_button"
+        android:background="@drawable/round_button"
         android:text="@string/send"
         android:padding="5dp"
         android:gravity="center"

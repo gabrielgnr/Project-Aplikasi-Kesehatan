@@ -30,4 +30,15 @@ Remember Me
     <string name="jadwal_konseling">JADWAL KONSELING</string>
     <string name="hasil_konseling">HASIL KONSELING</string>
     <string name="counselor_name">dr. Alfa Romeo</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_edit">Edit Profile</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_logout">Logout</string>
 </resources>

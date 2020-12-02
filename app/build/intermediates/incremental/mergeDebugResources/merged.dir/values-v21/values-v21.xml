@@ -268,6 +268,38 @@
       <item name="android:popupElevation">8dp</item>
       <item name="android:dropDownVerticalOffset">1dp</item>
     </style>
+    <style name="FirebaseUI" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/authui_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/authui_colorPrimaryDark</item>
+        <item name="colorAccent">@color/authui_colorAccent</item>
+        <item name="colorButtonNormal">@color/authui_colorPrimary</item>
+
+        <item name="android:colorPrimary">@color/authui_colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/authui_colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/authui_colorAccent</item>
+        <item name="android:colorButtonNormal">@color/authui_colorPrimary</item>
+
+        <item name="android:buttonStyle">@style/FirebaseUI.Button</item>
+        <item name="android:editTextStyle">@style/FirebaseUI.EditText</item>
+    </style>
+    <style name="FirebaseUI.Dialog" parent="Base.Theme.AppCompat.Light.Dialog.MinWidth">
+        <item name="colorPrimary">@color/authui_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/authui_colorPrimaryDark</item>
+        <item name="colorAccent">@color/authui_colorAccent</item>
+        <item name="colorButtonNormal">@color/authui_colorPrimary</item>
+
+        <item name="android:colorPrimary">@color/authui_colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/authui_colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/authui_colorAccent</item>
+        <item name="android:colorButtonNormal">@color/authui_colorPrimary</item>
+
+        <item name="android:buttonStyle">@style/FirebaseUI.Button</item>
+        <item name="android:editTextStyle">@style/FirebaseUI.EditText</item>
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:windowMinWidthMajor">360dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
     <style name="MaterialAlertDialog.MaterialComponents.Picker.Date.Calendar" parent="android:Widget.DeviceDefault.DatePicker">
     <item name="backgroundInsetTop">@dimen/mtrl_alert_dialog_picker_background_inset</item>
     <item name="backgroundInsetBottom">@dimen/mtrl_alert_dialog_picker_background_inset</item>

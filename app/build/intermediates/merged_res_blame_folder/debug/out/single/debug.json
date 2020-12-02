@@ -16,6 +16,14 @@
         "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\feedback_icon.png"
     },
     {
+        "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_send_chat.png.flat",
+        "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\send_chat.png"
+    },
+    {
+        "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_photo_circle.xml.flat",
+        "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\drawable\\photo_circle.xml"
+    },
+    {
         "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_schedule_icon.png.flat",
         "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\schedule_icon.png"
     },
@@ -68,6 +76,10 @@
         "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\menu_icon.png"
     },
     {
+        "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chat_box.xml.flat",
+        "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\drawable\\chat_box.xml"
+    },
+    {
         "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_history_icon.png.flat",
         "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\history_icon.png"
     },
@@ -84,6 +96,10 @@
         "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\drawable\\title_rectangle.xml"
     },
     {
+        "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_send_chat.png.flat",
+        "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\send_chat.png"
+    },
+    {
         "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_schedule_icon.png.flat",
         "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\schedule_icon.png"
     },
@@ -98,10 +114,6 @@
     {
         "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_feedback_icon.png.flat",
         "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\feedback_icon.png"
-    },
-    {
-        "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_styles.xml.flat",
-        "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\drawable\\styles.xml"
     },
     {
         "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -176,6 +188,10 @@
         "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\feedback_icon.png"
     },
     {
+        "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_konseling.xml.flat",
+        "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\activity_konseling.xml"
+    },
+    {
         "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_schedule_icon.png.flat",
         "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\schedule_icon.png"
     },
@@ -212,8 +228,16 @@
         "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\people_icon.png"
     },
     {
+        "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_rectangle.xml.flat",
+        "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\drawable\\menu_rectangle.xml"
+    },
+    {
         "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_feedback_icon.xml.flat",
         "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\feedback_icon.xml"
+    },
+    {
+        "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_send_chat.xml.flat",
+        "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\send_chat.xml"
     },
     {
         "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications.xml.flat",
@@ -256,6 +280,10 @@
         "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_send_chat.png.flat",
+        "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\send_chat.png"
+    },
+    {
         "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_schedule_icon.png.flat",
         "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\schedule_icon.png"
     },
@@ -280,6 +308,18 @@
         "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\feedback_icon.png"
     },
     {
+        "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_send_chat.png.flat",
+        "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\send_chat.png"
+    },
+    {
+        "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_send_chat.png.flat",
+        "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\send_chat.png"
+    },
+    {
+        "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chat_rectangle.xml.flat",
+        "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\drawable\\chat_rectangle.xml"
+    },
+    {
         "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
@@ -290,6 +330,10 @@
     {
         "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_person_icon.png.flat",
         "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\person_icon.png"
+    },
+    {
+        "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_send_chat.png.flat",
+        "source": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\send_chat.png"
     },
     {
         "merged": "D:\\Semester 5 2020\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",

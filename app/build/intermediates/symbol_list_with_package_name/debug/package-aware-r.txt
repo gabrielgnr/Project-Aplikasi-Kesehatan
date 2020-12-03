@@ -2153,7 +2153,6 @@ id name_layout
 id nav_controller_view_tag
 id nav_edit
 id nav_home
-id nav_host_fragment
 id nav_host_fragment_container
 id nav_logout
 id nav_setting

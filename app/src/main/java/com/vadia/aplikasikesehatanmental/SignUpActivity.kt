@@ -3,8 +3,6 @@ package com.vadia.aplikasikesehatanmental
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.RadioButton
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -13,6 +11,7 @@ import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.vadia.aplikasikesehatanmental.DataModel.Pasien
 import com.vadia.aplikasikesehatanmental.DataModel.Psikiater
+import com.vadia.aplikasikesehatanmental.DataModel.User
 
 import kotlinx.android.synthetic.main.activity_sign_up.*
 import java.util.*
@@ -23,6 +22,7 @@ class SignUpActivity : AppCompatActivity() {
     private val user_pasien=db.collection("pasien_user")
     private val psikiater= db.collection("psikiater")
     private val user_psikiater=db.collection("psikiater_user")
+    private val user = db.collection("user")
 
     private lateinit var auth: FirebaseAuth
 
@@ -55,21 +55,26 @@ class SignUpActivity : AppCompatActivity() {
         val fullName=fullname.text.toString()
         val username=username.text.toString()
         val email=email.text.toString()
+        val birthplace = birthplace.text.toString()
+        val birthdate = birthdate.text.toString()
         val newPass=new_password.text.toString()
         val confirmPass=confirm_password.text.toString()
+
+        val phone = no_hp.text.toString()
 
         //User Type
         val userType = roleOnClick()
         //Kalau pasien
         if (userType.equals("pasien")){
-            val noTelp=no_hp.text.toString()
             //Cek password
             if(newPass.equals(confirmPass)&&!newPass.isEmpty()) {
                 addPasien(fullname = fullName,
-                    username=username,
-                    email = email,
-                    noTelp = noTelp,
-                    password = newPass)
+                        username = username,
+                        email = email,
+                    noTelp = phone,
+                        birthDate = birthdate,
+                        birthplace = birthplace,
+                        password = newPass)
             }
             else{
                 if(newPass.isEmpty()){
@@ -82,12 +87,12 @@ class SignUpActivity : AppCompatActivity() {
         }
         //Kalau psikiater
         else{
-            val noTelp=no_hp.text.toString()
+
             if(newPass.equals(confirmPass)&&!newPass.isEmpty()) {
                 addPsikiater(fullname = fullName,
                     username = username,
                     email = email,
-                    noTelp = noTelp,
+                    noTelp = phone,
                     password = newPass)
             }
             else{
@@ -104,23 +109,46 @@ class SignUpActivity : AppCompatActivity() {
 
     }
 
-    private fun addPasien(fullname:String,username:String,email:String,noTelp:String,password:String){
+    private fun addPasien(fullname: String,
+                          username: String,
+                          email: String,
+                          noTelp: String,
+                          birthplace: String,
+                          birthDate: String,
+                          password: String){
         auth.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener(this) { task ->
+                //Kalau berhasil
                 if (task.isSuccessful) {
                     //Add to DB
                     val uid = auth.uid!!
                     val pasien_id=UUID.randomUUID().toString()
-                    val newPasien=Pasien(uid = uid,pasien_id=pasien_id,fullName = fullname,userName = username,email = email,phone = noTelp)
+                    val newPasien=Pasien(
+                            uid = uid,
+                            pasien_id = pasien_id,
+                            fullName = fullname,
+                            phone = noTelp,
+                            birthplace = birthplace,
+                            birthdate = birthDate
+                    )
+                    val newUser = User(
+                            user_id = uid,
+                            username = username,
+                            email = email,
+                            role = "pasien"
+                    )
 
                     //Add user:
+                    user.document(uid)
+                            .set(newUser)
+                            .addOnSuccessListener { Toast.makeText(baseContext, resources.getString(R.string.success_sign_up), Toast.LENGTH_SHORT).show()}
+                            .addOnFailureListener { Toast.makeText(baseContext, "Error, cannot add new user.",Toast.LENGTH_SHORT).show() }
+
+                    //Add Pasien Data
                     pasien.document(uid)
                         .set(newPasien)
                         .addOnSuccessListener { Toast.makeText(baseContext, resources.getString(R.string.success_sign_up), Toast.LENGTH_SHORT).show() }
                         .addOnFailureListener { Toast.makeText(baseContext, "Error, cannot add new user.",Toast.LENGTH_SHORT).show() }
-
-
-
 
                     // Sign in success, update UI with the signed-in user's information
                     Toast.makeText(baseContext, resources.getString(R.string.success_sign_up), Toast.LENGTH_SHORT).show()

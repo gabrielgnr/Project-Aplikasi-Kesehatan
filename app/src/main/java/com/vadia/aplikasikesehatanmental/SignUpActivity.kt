@@ -19,9 +19,9 @@ import java.util.*
 class SignUpActivity : AppCompatActivity() {
     private val db = Firebase.firestore
     private val pasien= db.collection("pasien")
-    private val user_pasien=db.collection("pasien_user")
+    //private val user_pasien=db.collection("pasien_user")
     private val psikiater= db.collection("psikiater")
-    private val user_psikiater=db.collection("psikiater_user")
+   // private val user_psikiater=db.collection("psikiater_user")
     private val user = db.collection("user")
 
     private lateinit var auth: FirebaseAuth
@@ -140,11 +140,10 @@ class SignUpActivity : AppCompatActivity() {
 
                     //Add user:
                     user.document(uid)
-                            .set(newUser)
-                            .addOnSuccessListener { Toast.makeText(baseContext, resources.getString(R.string.success_sign_up), Toast.LENGTH_SHORT).show()}
+                            .set(newUser).
+                            addOnSuccessListener { Toast.makeText(baseContext, resources.getString(R.string.success_sign_up), Toast.LENGTH_SHORT).show()}
                             .addOnFailureListener { Toast.makeText(baseContext, "Error, cannot add new user.",Toast.LENGTH_SHORT).show() }
-
-                    //Add Pasien Data
+                    //Add pasien info :
                     pasien.document(uid)
                         .set(newPasien)
                         .addOnSuccessListener { Toast.makeText(baseContext, resources.getString(R.string.success_sign_up), Toast.LENGTH_SHORT).show() }
@@ -170,21 +169,32 @@ class SignUpActivity : AppCompatActivity() {
                     //Add to DB
                     val uid = auth.uid!!
                     val psikiater_id=UUID.randomUUID().toString()
-                    val newPsikiater= Psikiater(uid=uid,psikiater_id = psikiater_id,fullName = fullname,email = email,phone = noTelp)
+                    val newPsikiater= Psikiater(uid=uid,
+                            psikiater_id = psikiater_id,
+                            fullName = fullname,
+                            email = email,
+                            phone = noTelp)
 
+                    val newUser = User(user_id=uid,
+                    username=username,
+                    email =email,
+                    role="psikiater")
                     //Add user:
+                    user.document(uid)
+                            .set(newUser).
+                            addOnSuccessListener { Toast.makeText(baseContext, resources.getString(R.string.success_sign_up), Toast.LENGTH_SHORT).show()}
+                            .addOnFailureListener { Toast.makeText(baseContext, "Error, cannot add new user.",Toast.LENGTH_SHORT).show() }
+                    //Add data psikiater
                     psikiater.document(uid)
                         .set(newPsikiater)
                         .addOnSuccessListener { Toast.makeText(baseContext, resources.getString(R.string.success_sign_up), Toast.LENGTH_SHORT).show() }
                         .addOnFailureListener { Toast.makeText(baseContext, "Error, cannot add new user.",Toast.LENGTH_SHORT).show() }
-
                     // Sign in success, update UI with the signed-in user's information
                     Toast.makeText(baseContext, resources.getString(R.string.success_sign_up), Toast.LENGTH_SHORT).show()
                    // val user = auth.currentUser
                     updateUIPsikiater()
                 } else {
                     // If sign in fails, display a message to the user.
-
                     Toast.makeText(baseContext, "Authentication failed.",Toast.LENGTH_SHORT).show()
 
                 }

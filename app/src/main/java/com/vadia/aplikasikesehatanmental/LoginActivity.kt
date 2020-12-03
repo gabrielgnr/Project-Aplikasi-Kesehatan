@@ -27,8 +27,8 @@ class LoginActivity : AppCompatActivity() {
         }
 
         log_in.setOnClickListener{
-                val username = username.getText().toString()
-                val password = password.getText().toString()
+                val username = username.text.toString()
+                val password = password.text.toString()
 
             if(username.isEmpty() || password.isEmpty()){
                 Toast.makeText(this, "Username atau Password kosong, silakan isi!", Toast.LENGTH_SHORT).show()
@@ -42,7 +42,8 @@ class LoginActivity : AppCompatActivity() {
                         }
                         else
                             Toast.makeText(this, "Berhasil Login!", Toast.LENGTH_SHORT).show()
-                        val intent = Intent (this, HomeActivityPasien::class.java)
+                       // val intent = Intent (this, HomeActivityPasien::class.java)
+                        val intent=Intent (this, MenuActivity::class.java)
                         startActivity(intent)
                     }
                     .addOnFailureListener{

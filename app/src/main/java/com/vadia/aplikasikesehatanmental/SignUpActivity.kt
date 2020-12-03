@@ -33,16 +33,6 @@ class SignUpActivity : AppCompatActivity() {
         initUI()
     }
 
-    override fun onStart() {
-        super.onStart()
-        //val auth = FirebaseAuth.getInstance()
-        /*
-        if (firebaseAuth.currentUser != null)
-            startActivity(Intent(this, HomeActivity::class.java))
-
-         */
-    }
-
     private fun roleOnClick(): String? = when (role.checkedRadioButtonId) {
         R.id.type_psikiater-> "psikiater"
         R.id.type_pasien -> "pasien"
@@ -204,7 +194,8 @@ class SignUpActivity : AppCompatActivity() {
     }
 
     private fun updateUIPasien() {
-        val intent = Intent(this, HomeActivityPasien::class.java)
+        //val intent = Intent(this, HomeActivityPasien::class.java)
+        val intent=Intent (this, MenuActivity::class.java)
         startActivity(intent)
         finish()
     }

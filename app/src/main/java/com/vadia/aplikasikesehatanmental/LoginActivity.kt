@@ -36,14 +36,13 @@ class LoginActivity : AppCompatActivity() {
             }
             FirebaseAuth.getInstance().signInWithEmailAndPassword(username,password)
                     .addOnCompleteListener{
-                        if (!it.isSuccessful){ return@addOnCompleteListener
-                            val intent = Intent (this, MenuActivity::class.java)
-                            startActivity(intent)
+                        if (!it.isSuccessful){
+                            return@addOnCompleteListener
                         }
                         else
                             Toast.makeText(this, "Berhasil Login!", Toast.LENGTH_SHORT).show()
-                       // val intent = Intent (this, HomeActivityPasien::class.java)
-                        val intent=Intent (this, MenuActivity::class.java)
+                       val intent = Intent (this, HomeActivityPasien::class.java)
+                        //val intent=Intent (this, MenuActivity::class.java)
                         startActivity(intent)
                     }
                     .addOnFailureListener{

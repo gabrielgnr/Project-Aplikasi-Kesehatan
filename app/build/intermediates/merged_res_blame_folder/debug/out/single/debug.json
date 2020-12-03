@@ -100,6 +100,10 @@
         "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\schedule_icon.png"
     },
     {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\layout_navbar_activity.xml.flat",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\navbar_activity.xml"
+    },
+    {
         "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_profile.xml.flat",
         "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\drawable\\circle_profile.xml"
     },
@@ -390,10 +394,6 @@
     {
         "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_slideshow.xml.flat",
         "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
-    },
-    {
-        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\layout_menu_activity.xml.flat",
-        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\menu_activity.xml"
     },
     {
         "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_person_icon.png.flat",

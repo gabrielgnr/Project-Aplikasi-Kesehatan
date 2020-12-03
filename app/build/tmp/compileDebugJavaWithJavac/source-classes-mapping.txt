@@ -12,10 +12,10 @@ com/vadia/aplikasikesehatanmental/databinding/ContentMainBinding.java
  com.vadia.aplikasikesehatanmental.databinding.ContentMainBinding
 com/vadia/aplikasikesehatanmental/databinding/JadwalItemListBinding.java
  com.vadia.aplikasikesehatanmental.databinding.JadwalItemListBinding
-com/vadia/aplikasikesehatanmental/databinding/MenuActivityBinding.java
- com.vadia.aplikasikesehatanmental.databinding.MenuActivityBinding
 com/vadia/aplikasikesehatanmental/databinding/ActivityKonselingBinding.java
  com.vadia.aplikasikesehatanmental.databinding.ActivityKonselingBinding
+com/vadia/aplikasikesehatanmental/databinding/NavbarActivityBinding.java
+ com.vadia.aplikasikesehatanmental.databinding.NavbarActivityBinding
 com/vadia/aplikasikesehatanmental/databinding/ActivityHomePsikiaterBinding.java
  com.vadia.aplikasikesehatanmental.databinding.ActivityHomePsikiaterBinding
 com/vadia/aplikasikesehatanmental/databinding/ProfileActivityBinding.java

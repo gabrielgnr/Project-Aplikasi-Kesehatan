@@ -2041,7 +2041,6 @@ id et_username
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id facebook_button
 id fade
 id fill
@@ -2474,7 +2473,6 @@ layout idp_button_google
 layout jadwal_item
 layout jadwal_item_list
 layout login_page
-layout menu_activity
 layout messenger_button_send_blue_large
 layout messenger_button_send_blue_round
 layout messenger_button_send_blue_small
@@ -2510,6 +2508,7 @@ layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
 layout nav_header_main
+layout navbar_activity
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action

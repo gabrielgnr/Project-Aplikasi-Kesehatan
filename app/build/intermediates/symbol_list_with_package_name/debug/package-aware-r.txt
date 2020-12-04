@@ -2105,6 +2105,7 @@ id linear
 id list
 id listMode
 id list_item
+id list_of_messages
 id loading_section
 id log_in
 id login_section
@@ -2113,6 +2114,8 @@ id masked
 id media_actions
 id menu_24px_o
 id message
+id message_text
+id message_time
 id messenger_send_button
 id middle
 id mini
@@ -2472,6 +2475,7 @@ layout idp_button_google
 layout jadwal_item
 layout jadwal_item_list
 layout login_page
+layout message
 layout messenger_button_send_blue_large
 layout messenger_button_send_blue_round
 layout messenger_button_send_blue_small

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppBarOverlay">
+
+        <View
+            android:id="@+id/dashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="82dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="-2dp"
+            android:background="#D681F4" />
+
+        <ImageView
+            android:id="@+id/profile_img"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/circle"
+            android:src="@drawable/person_icon" />
+
+
+        <TextView
+            android:id="@+id/selamat_dat"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="23dp"
+            android:gravity="top"
+            android:text="@string/selamat_datang"
+            android:textAppearance="@style/selamat_datang" />
+
+        <ImageView
+            android:id="@+id/notificatio"
+            android:layout_width="42dp"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_notifications" />
+
+        <RelativeLayout
+            android:id="@+id/menu_24px_o"
+            android:layout_width="34dp"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="362dp"
+            android:layout_marginTop="22dp"
+
+            android:background="@drawable/ic_menu" />
+
+        <View
+            android:id="@+id/daftar_konseling"
+            android:layout_width="341dp"
+            android:layout_height="103dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="93dp"
+            android:background="#AE82C2"
+            />
+
+        <RelativeLayout
+            android:id="@+id/fill_regist"
+            android:layout_width="77dp"
+            android:layout_height="67dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="46dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="108dp"
+            android:background="@drawable/ic_fill_registration"
+            >
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/daftar_kons"
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="101dp"
+            android:gravity="top"
+            android:text="@string/daftar_konseling"
+            android:textAppearance="@style/daftar_konseling" />
+
+
+        <View
+            android:id="@+id/lihat_konselor"
+            android:layout_width="341dp"
+            android:layout_height="103dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="210dp"
+            android:background="#F1C584" />
+
+
+        <TextView
+            android:id="@+id/lihat_konseling"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="215dp"
+            android:gravity="top"
+            android:text="@string/lihat_konselor"
+            android:textAppearance="@style/lihat_konselor" />
+
+        <View
+            android:id="@+id/riwayat_konseling"
+            android:layout_width="341dp"
+            android:layout_height="103dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="322dp"
+            android:background="#F18484"
+            />
+
+        <RelativeLayout
+            android:id="@+id/history"
+            android:layout_width="77dp"
+            android:layout_height="67dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="337dp"
+            android:background="@drawable/history_icon"/>
+
+        <TextView
+            android:id="@+id/riwayat_kon"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="329dp"
+            android:gravity="top"
+            android:text="@string/riwayat_konseling"
+            android:textAppearance="@style/riwayat_konseling" />
+
+
+        <RelativeLayout
+            android:id="@+id/see_counselor"
+            android:layout_width="77dp"
+            android:layout_height="67dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="226dp"
+            android:background="@drawable/people_icon"/>
+
+        <TextView
+            android:id="@+id/upcoming_co"
+            android:layout_width="284dp"
+            android:layout_height="43dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="31dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="443dp"
+            android:text="@string/upcoming_co"
+            android:textAppearance="@style/upcoming_co"
+            android:gravity="top"
+            />
+        <View
+            android:id="@+id/upcoming_placeholder"
+            android:layout_width="341dp"
+            android:layout_height="72dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="474dp"
+            android:background="#AE82C2"
+            />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/PopupOverlay" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -6,8 +6,12 @@ com/vadia/aplikasikesehatanmental/databinding/FragmentSettingBinding.java
  com.vadia.aplikasikesehatanmental.databinding.FragmentSettingBinding
 com/vadia/aplikasikesehatanmental/databinding/NavbarDrawerBinding.java
  com.vadia.aplikasikesehatanmental.databinding.NavbarDrawerBinding
+com/vadia/aplikasikesehatanmental/DataModel/MessageKonseling.java
+ com.vadia.aplikasikesehatanmental.DataModel.MessageKonseling
 com/vadia/aplikasikesehatanmental/databinding/ActivityHomePasienBinding.java
  com.vadia.aplikasikesehatanmental.databinding.ActivityHomePasienBinding
+com/vadia/aplikasikesehatanmental/databinding/MessageBinding.java
+ com.vadia.aplikasikesehatanmental.databinding.MessageBinding
 com/vadia/aplikasikesehatanmental/databinding/AppBarMainBinding.java
  com.vadia.aplikasikesehatanmental.databinding.AppBarMainBinding
 com/vadia/aplikasikesehatanmental/databinding/ContentMainBinding.java

@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\navbar_activity.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\navbar_activity.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_pasien.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\toolbar_pasien.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\profile_activity.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\profile_activity.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_forget_passwd.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\activity_forget_passwd.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\navbar_drawer.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\navbar_drawer.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home_pasien.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\activity_home_pasien.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_up.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\login_page.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\login_page.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\jadwal_item_list.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\jadwal_item_list.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\jadwal_item.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\jadwal_item.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_konseling.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\activity_konseling.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_setting.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\fragment_setting.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\message.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\message.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_main.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_edit_profile.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\fragment_edit_profile.xml"
+    },
+    {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home_psikiater.xml",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\activity_home_psikiater.xml"
+    }
+]

@@ -300,6 +300,10 @@
         "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\send_chat.xml"
     },
     {
+        "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\layout_message.xml.flat",
+        "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\src\\main\\res\\layout\\message.xml"
+    },
+    {
         "merged": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_history_icon.png.flat",
         "source": "D:\\Project\\Project-Aplikasi-Kesehatan\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\history_icon.png"
     },

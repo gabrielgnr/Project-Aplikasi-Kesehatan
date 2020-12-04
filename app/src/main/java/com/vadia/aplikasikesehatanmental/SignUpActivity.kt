@@ -41,6 +41,11 @@ class SignUpActivity : AppCompatActivity() {
 
     private fun initUI() {
 
+        click_here.setOnClickListener{
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
+
     register.setOnClickListener {
         val fullName=fullname.text.toString()
         val username=username.text.toString()

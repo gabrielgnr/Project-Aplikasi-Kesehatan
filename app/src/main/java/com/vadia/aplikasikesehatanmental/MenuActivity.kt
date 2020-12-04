@@ -2,6 +2,7 @@ package com.vadia.aplikasikesehatanmental
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -12,6 +13,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.ui.AppBarConfiguration
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
+import com.vadia.aplikasikesehatanmental.R.layout.navbar_activity
 
 class MenuActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -19,7 +21,7 @@ class MenuActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.navbar_activity)
+        setContentView(navbar_activity)
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
@@ -31,7 +33,7 @@ class MenuActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
         val navView: NavigationView = findViewById(R.id.nav_view)
         //val navController = findNavController(R.id.nav_host_fragment)
-        val toggle : ActionBarDrawerToggle = ActionBarDrawerToggle(this,
+        val toggle  = ActionBarDrawerToggle(this,
                 drawerLayout,
                 toolbar,
                 R.string.navigation_drawer_open,
@@ -48,9 +50,9 @@ class MenuActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
-                setOf(
-                        R.id.nav_edit, R.id.nav_setting, R.id.nav_logout
-                ), drawerLayout
+            setOf(
+                R.id.nav_edit, R.id.nav_setting, R.id.nav_logout
+            ), drawerLayout
         )
         /*setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)*/
@@ -67,11 +69,11 @@ class MenuActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         }
     }
 
-    /*override fun onCreateOptionsMenu(menu: Menu): Boolean {
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.menu, menu)
         return true
-    }*/
+    }
 
     /*override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment)

@@ -141,6 +141,11 @@
         android:background="#AE82C2"
         />
 
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
         <include
             android:id="@+id/navbar_pasien"
             layout="@layout/navbar_drawer"/>

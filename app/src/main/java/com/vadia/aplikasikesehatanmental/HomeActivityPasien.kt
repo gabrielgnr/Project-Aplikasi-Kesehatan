@@ -47,7 +47,7 @@ class HomeActivityPasien : AppCompatActivity() {
         logout.setOnClickListener {
             //drawerLayout.closeDrawer(GravityCompat.START)
             FirebaseAuth.getInstance().signOut()
-            Toast.makeText(this, "Logout", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this, "Logout", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }

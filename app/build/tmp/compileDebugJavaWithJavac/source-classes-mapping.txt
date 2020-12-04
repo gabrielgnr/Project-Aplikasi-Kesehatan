@@ -12,22 +12,14 @@ com/vadia/aplikasikesehatanmental/databinding/ActivityHomePasienBinding.java
  com.vadia.aplikasikesehatanmental.databinding.ActivityHomePasienBinding
 com/vadia/aplikasikesehatanmental/databinding/MessageBinding.java
  com.vadia.aplikasikesehatanmental.databinding.MessageBinding
-com/vadia/aplikasikesehatanmental/databinding/AppBarMainBinding.java
- com.vadia.aplikasikesehatanmental.databinding.AppBarMainBinding
-com/vadia/aplikasikesehatanmental/databinding/ContentMainBinding.java
- com.vadia.aplikasikesehatanmental.databinding.ContentMainBinding
 com/vadia/aplikasikesehatanmental/databinding/JadwalItemListBinding.java
  com.vadia.aplikasikesehatanmental.databinding.JadwalItemListBinding
 com/vadia/aplikasikesehatanmental/databinding/ActivityKonselingBinding.java
  com.vadia.aplikasikesehatanmental.databinding.ActivityKonselingBinding
-com/vadia/aplikasikesehatanmental/databinding/NavbarActivityBinding.java
- com.vadia.aplikasikesehatanmental.databinding.NavbarActivityBinding
 com/vadia/aplikasikesehatanmental/databinding/ActivityHomePsikiaterBinding.java
  com.vadia.aplikasikesehatanmental.databinding.ActivityHomePsikiaterBinding
 com/vadia/aplikasikesehatanmental/databinding/ProfileActivityBinding.java
  com.vadia.aplikasikesehatanmental.databinding.ProfileActivityBinding
-com/vadia/aplikasikesehatanmental/databinding/NavHeaderMainBinding.java
- com.vadia.aplikasikesehatanmental.databinding.NavHeaderMainBinding
 com/vadia/aplikasikesehatanmental/BuildConfig.java
  com.vadia.aplikasikesehatanmental.BuildConfig
 com/vadia/aplikasikesehatanmental/databinding/ActivitySignUpBinding.java

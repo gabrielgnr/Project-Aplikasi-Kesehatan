@@ -41,6 +41,9 @@ public final class ActivityHomePasienBinding implements ViewBinding {
   public final View lihatKonselor;
 
   @NonNull
+  public final NavbarDrawerBinding navbarPasien;
+
+  @NonNull
   public final TextView riwayatKon;
 
   @NonNull
@@ -48,6 +51,9 @@ public final class ActivityHomePasienBinding implements ViewBinding {
 
   @NonNull
   public final RelativeLayout seeCounselor;
+
+  @NonNull
+  public final ToolbarPasienBinding toolbarPasien;
 
   @NonNull
   public final TextView upcomingCo;
@@ -58,9 +64,11 @@ public final class ActivityHomePasienBinding implements ViewBinding {
   private ActivityHomePasienBinding(@NonNull DrawerLayout rootView, @NonNull TextView daftarKons,
       @NonNull View daftarKonseling, @NonNull DrawerLayout drawerLayout,
       @NonNull RelativeLayout fillRegist, @NonNull RelativeLayout history,
-      @NonNull TextView lihatKonseling, @NonNull View lihatKonselor, @NonNull TextView riwayatKon,
+      @NonNull TextView lihatKonseling, @NonNull View lihatKonselor,
+      @NonNull NavbarDrawerBinding navbarPasien, @NonNull TextView riwayatKon,
       @NonNull View riwayatKonseling, @NonNull RelativeLayout seeCounselor,
-      @NonNull TextView upcomingCo, @NonNull View upcomingPlaceholder) {
+      @NonNull ToolbarPasienBinding toolbarPasien, @NonNull TextView upcomingCo,
+      @NonNull View upcomingPlaceholder) {
     this.rootView = rootView;
     this.daftarKons = daftarKons;
     this.daftarKonseling = daftarKonseling;
@@ -69,9 +77,11 @@ public final class ActivityHomePasienBinding implements ViewBinding {
     this.history = history;
     this.lihatKonseling = lihatKonseling;
     this.lihatKonselor = lihatKonselor;
+    this.navbarPasien = navbarPasien;
     this.riwayatKon = riwayatKon;
     this.riwayatKonseling = riwayatKonseling;
     this.seeCounselor = seeCounselor;
+    this.toolbarPasien = toolbarPasien;
     this.upcomingCo = upcomingCo;
     this.upcomingPlaceholder = upcomingPlaceholder;
   }
@@ -141,6 +151,13 @@ public final class ActivityHomePasienBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.navbar_pasien;
+      View navbarPasien = rootView.findViewById(id);
+      if (navbarPasien == null) {
+        break missingId;
+      }
+      NavbarDrawerBinding binding_navbarPasien = NavbarDrawerBinding.bind(navbarPasien);
+
       id = R.id.riwayat_kon;
       TextView riwayatKon = rootView.findViewById(id);
       if (riwayatKon == null) {
@@ -159,6 +176,13 @@ public final class ActivityHomePasienBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.toolbar_pasien;
+      View toolbarPasien = rootView.findViewById(id);
+      if (toolbarPasien == null) {
+        break missingId;
+      }
+      ToolbarPasienBinding binding_toolbarPasien = ToolbarPasienBinding.bind(toolbarPasien);
+
       id = R.id.upcoming_co;
       TextView upcomingCo = rootView.findViewById(id);
       if (upcomingCo == null) {
@@ -172,8 +196,9 @@ public final class ActivityHomePasienBinding implements ViewBinding {
       }
 
       return new ActivityHomePasienBinding((DrawerLayout) rootView, daftarKons, daftarKonseling,
-          drawerLayout, fillRegist, history, lihatKonseling, lihatKonselor, riwayatKon,
-          riwayatKonseling, seeCounselor, upcomingCo, upcomingPlaceholder);
+          drawerLayout, fillRegist, history, lihatKonseling, lihatKonselor, binding_navbarPasien,
+          riwayatKon, riwayatKonseling, seeCounselor, binding_toolbarPasien, upcomingCo,
+          upcomingPlaceholder);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

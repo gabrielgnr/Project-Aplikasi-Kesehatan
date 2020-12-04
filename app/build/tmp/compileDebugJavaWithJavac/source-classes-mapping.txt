@@ -2,10 +2,10 @@ com/vadia/aplikasikesehatanmental/databinding/LoginPageBinding.java
  com.vadia.aplikasikesehatanmental.databinding.LoginPageBinding
 com/vadia/aplikasikesehatanmental/databinding/FragmentEditProfileBinding.java
  com.vadia.aplikasikesehatanmental.databinding.FragmentEditProfileBinding
-com/vadia/aplikasikesehatanmental/databinding/FragmentSettingBinding.java
- com.vadia.aplikasikesehatanmental.databinding.FragmentSettingBinding
 com/vadia/aplikasikesehatanmental/databinding/NavbarDrawerBinding.java
  com.vadia.aplikasikesehatanmental.databinding.NavbarDrawerBinding
+com/vadia/aplikasikesehatanmental/databinding/FragmentSettingBinding.java
+ com.vadia.aplikasikesehatanmental.databinding.FragmentSettingBinding
 com/vadia/aplikasikesehatanmental/DataModel/MessageKonseling.java
  com.vadia.aplikasikesehatanmental.DataModel.MessageKonseling
 com/vadia/aplikasikesehatanmental/databinding/ActivityHomePasienBinding.java

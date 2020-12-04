@@ -12,6 +12,7 @@
         android:layout_height="wrap_content">
 
     <include
+        android:id="@+id/toolbar_pasien"
         layout="@layout/toolbar_pasien"/>
 
     <View
@@ -140,6 +141,8 @@
         android:background="#AE82C2"
         />
 
-        <include layout="@layout/toolbar_pasien"/>
+        <include
+            android:id="@+id/navbar_pasien"
+            layout="@layout/navbar_drawer"/>
     </RelativeLayout>
 </androidx.drawerlayout.widget.DrawerLayout>

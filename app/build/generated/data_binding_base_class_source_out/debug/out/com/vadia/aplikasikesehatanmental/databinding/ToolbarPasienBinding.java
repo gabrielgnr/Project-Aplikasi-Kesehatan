@@ -4,6 +4,7 @@ package com.vadia.aplikasikesehatanmental.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -23,7 +24,7 @@ public final class ToolbarPasienBinding implements ViewBinding {
   public final View dashboard;
 
   @NonNull
-  public final RelativeLayout menu;
+  public final ImageButton menu;
 
   @NonNull
   public final ImageView notificatio;
@@ -35,7 +36,7 @@ public final class ToolbarPasienBinding implements ViewBinding {
   public final TextView selamatDat;
 
   private ToolbarPasienBinding(@NonNull RelativeLayout rootView, @NonNull View dashboard,
-      @NonNull RelativeLayout menu, @NonNull ImageView notificatio, @NonNull ImageView profileImg,
+      @NonNull ImageButton menu, @NonNull ImageView notificatio, @NonNull ImageView profileImg,
       @NonNull TextView selamatDat) {
     this.rootView = rootView;
     this.dashboard = dashboard;
@@ -79,7 +80,7 @@ public final class ToolbarPasienBinding implements ViewBinding {
       }
 
       id = R.id.menu;
-      RelativeLayout menu = rootView.findViewById(id);
+      ImageButton menu = rootView.findViewById(id);
       if (menu == null) {
         break missingId;
       }

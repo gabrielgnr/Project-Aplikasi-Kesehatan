@@ -2163,6 +2163,7 @@ id nav_host_fragment_container
 id nav_logout
 id nav_setting
 id nav_view
+id navbar_pasien
 id navigation_header_container
 id never
 id never_display
@@ -2333,6 +2334,7 @@ id titlename
 id toggle
 id toggle_visibility
 id toolbar
+id toolbar_pasien
 id top
 id topPanel
 id touch_outside
